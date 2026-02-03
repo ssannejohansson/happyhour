@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="sv-SE">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome kit -->
+  <script src="https://kit.fontawesome.com/ad5c36405b.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <!-- Favicon -->
+<link rel="icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
+
+
+  <!-- Title -->
+  <title>Happy Hour - Meny</title>
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+<!-- Navigation -->
+ <nav>
+<a class="back-btn" href="index.html" onclick="return goBackOrHome(event)">
+  <span class="back-icon">←</span>
+</a>
+ </nav>
+
+  <!-- Menu -->
+  <section class="section" id="menu">
+    <div class="container">
+      <div class="d-flex align-items-end justify-content-between flex-wrap gap-3 pt-4 mb-4">
+        <div>
+          <h1 class="menu-title mb-0">Drinkmeny</h1>
+          <div class="neon-line"></div>
+          <p class="section-sub mb-0">
+            Signaturcocktails inspirerade av nattljus, citrus och örter.
+          </p>
+       <p class="menu-note">
+  Samtliga drinkar kan göras alkoholfria - utan att tumma på smak eller upplevelse.
+</p>
+        </div>
+      </div>
+
+   <div class="drink-list">
+
+  <!-- 1 -->
+  <div class="drink-row border-0">
+    <img class="drink-row-img" src="assets/images/drink-1.jpg" alt="Pink Garden">
+    <div class="drink-row-body">
+      <div class="drink-row-main">
+        <div class="d-flex justify-content-between align-items-start gap-2 flex-wrap">
+          <h3 class="drink-row-title">Pink Garden</h3>
+          <div class="badges d-none d-md-block">
+            <span class="badge-pill">Frisk</span>
+            <span class="badge-pill">Aromatisk</span>
+            <span class="badge-pill">Lätt</span>
+          </div>
+        </div>
+        <p class="drink-row-desc">Frisk och elegant med mjuka örttoner och subtil sötma.</p>
+        <p class="drink-row-ings">Gin · Gurka · Mynta · Lime · Rosé tonic</p>
+      </div>
+
+      <div class="drink-row-price">
+        <div class="price">145 kr</div>
+        <div class="price-sub">Gin · Medium</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2 -->
+  <div class="drink-row border-0">
+    <img class="drink-row-img" src="assets/images/drink-2.jpg" alt="Nordic Dusk">
+    <div class="drink-row-body">
+      <div class="drink-row-main">
+        <div class="d-flex justify-content-between align-items-start gap-2 flex-wrap">
+          <h3 class="drink-row-title">Nordic Dusk</h3>
+          <div class="badges d-none d-md-block">
+            <span class="badge-pill">Bärig</span>
+            <span class="badge-pill">Torr</span>
+            <span class="badge-pill">Frisk</span>
+          </div>
+        </div>
+        <p class="drink-row-desc">Bärig fräschör möter nordiska örter i en sval cocktail.</p>
+        <p class="drink-row-ings">Vodka · Blåbär · Lime · Rosmarin · Sodavatten</p>
+      </div>
+
+      <div class="drink-row-price">
+        <div class="price">145 kr</div>
+        <div class="price-sub">Vodka · Medium</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3 -->
+  <div class="drink-row border-0">
+    <img class="drink-row-img" src="assets/images/drink-3.jpg" alt="Amber Hour">
+    <div class="drink-row-body">
+      <div class="drink-row-main">
+        <div class="d-flex justify-content-between align-items-start gap-2 flex-wrap">
+          <h3 class="drink-row-title">Amber Hour</h3>
+          <div class="badges d-none d-md-block">
+            <span class="badge-pill">Bitter</span>
+            <span class="badge-pill">Citrus</span>
+            <span class="badge-pill">Elegant</span>
+          </div>
+        </div>
+        <p class="drink-row-desc">Citrus, bitterhet och värme – skapad för långa kvällar.</p>
+        <p class="drink-row-ings">Aperitivo · Apelsin · Bubbel · Örter</p>
+      </div>
+
+      <div class="drink-row-price">
+        <div class="price">155 kr</div>
+        <div class="price-sub">Aperitivo · Lätt</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 4 -->
+  <div class="drink-row border-0">
+    <img class="drink-row-img" src="assets/images/drink-5.jpg" alt="Afterglow">
+    <div class="drink-row-body">
+      <div class="drink-row-main">
+        <div class="d-flex justify-content-between align-items-start gap-2 flex-wrap">
+          <h3 class="drink-row-title">Afterglow</h3>
+             <div class="badges d-none d-md-block">
+            <span class="badge-pill">Fruktig</span>
+            <span class="badge-pill">Balanserad</span>
+            <span class="badge-pill">Bubblig</span>
+          </div>
+        </div>
+        <p class="drink-row-desc">Mjuk, fruktig och lätt bubblig med örtig avslutning.</p>
+        <p class="drink-row-ings">Gin · Jordgubbe · Citron · Rosmarin · Tonic</p>
+      </div>
+
+      <div class="drink-row-price">
+        <div class="price">145 kr</div>
+        <div class="price-sub">Gin · Medium</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 5 -->
+  <div class="drink-row border-0">
+    <img class="drink-row-img" src="assets/images/drink-6.jpg" alt="Crushed Velvet">
+    <div class="drink-row-body">
+      <div class="drink-row-main">
+        <div class="d-flex justify-content-between align-items-start gap-2 flex-wrap">
+          <h3 class="drink-row-title">Crushed Velvet</h3>
+          <div class="badges d-none d-md-block">
+            <span class="badge-pill">Söt</span>
+            <span class="badge-pill">Frisk</span>
+            <span class="badge-pill">Bärig</span>
+          </div>
+        </div>
+        <p class="drink-row-desc">Saftig, sval och lätt söt – perfekt när tempot sjunker.</p>
+        <p class="drink-row-ings">Rom · Mörka bär · Lime · Sockerlag · Krossad is</p>
+      </div>
+
+      <div class="drink-row-price">
+        <div class="price">145 kr</div>
+        <div class="price-sub">Rom · Medium</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 6 -->
+  <div class="drink-row border-0">
+    <img class="drink-row-img" src="assets/images/drink-7.jpg" alt="Midnight Mojito">
+    <div class="drink-row-body">
+      <div class="drink-row-main">
+        <div class="d-flex justify-content-between align-items-start gap-2 flex-wrap">
+          <h3 class="drink-row-title">Midnight Mojito</h3>
+          <div class="badges d-none d-md-block">
+            <span class="badge-pill">Frisk</span>
+            <span class="badge-pill">Klassisk</span>
+            <span class="badge-pill">Lätt</span>
+          </div>
+        </div>
+        <p class="drink-row-desc">En mörkare, svalare tolkning av en klassiker.</p>
+        <p class="drink-row-ings">Ljus rom · Mynta · Lime · Socker · Soda</p>
+      </div>
+
+      <div class="drink-row-price">
+        <div class="price">135 kr</div>
+        <div class="price-sub">Rom · Lätt</div>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+</div>
+
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="row g-4">
+
+      <!-- Bar info -->
+      <div class="col-12 col-md-4 text-lg-start">
+        <h4 class="footer-title">Happy Hour</h4>
+        <p class="footer-text">
+          Cocktailbar inspirerad av nattljus, citrus och örter.<br>
+          Bra drinkar. Långa kvällar.
+        </p>
+      </div>
+
+      <!-- Kontakt -->
+      <div class="col-12 col-md-4 text-lg-center">
+        <h5 class="footer-heading">Kontakt</h5>
+        <ul class="footer-list">
+          <li><i class="fa-solid fa-location-dot me-2"></i>Storgatan 12, 111 22 Stockholm</li>
+          <li><i class="fa-solid fa-phone me-2"></i>08-123 45 67</li>
+          <li><i class="fa-solid fa-envelope me-2"></i>hello@happyhour.fake</li>
+        </ul>
+      </div>
+
+      <!-- Öppettider -->
+      <div class="col-12 col-md-4 text-lg-end">
+        <h5 class="footer-heading">Öppettider</h5>
+        <ul class="footer-list">
+          <li>Mån - Tors: 17.00 - 23.00</li>
+          <li>Fre - Lör: 16.00 - 01.00</li>
+          <li>Söndag: Stängt</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Bottom row -->
+    <div class="footer-bottom">
+      <div class="socials">
+        <a href="#" aria-label="Instagram"><i class="fa fa-instagram"></i></a>
+        <a href="#" aria-label="Facebook"><i class="fa fa-facebook"></i></a>
+        <a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+      </div>
+
+      <div class="copyright">
+        © 2026 Happy Hour · Fiktivt projekt
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/navigation.js"></script>
+</body>
+
+</html>
